@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from llama_cpp import Llama  # Change this if using GPT4All
+from llama_cpp import Llama  
 
 # Load embedding model
 model = SentenceTransformer("all-MiniLM-L6-v2")
