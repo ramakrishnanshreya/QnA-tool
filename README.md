@@ -3,7 +3,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FCeRRx80NXlHZNVbYzfrseJm_zwVXe9U?usp=sharing)
 
 ## Overview
-The **Web Content Q&A Tool** is a web-based application that allows users to ingest content from one or more URLs and ask questions based strictly on that ingested content. It leverages a retrieval-based approach using LangChain, Chroma, and a locally hosted Flan-T5 model to generate concise and accurate answers. The tool features a single-tab Gradio interface for a streamlined user experience.
+The **Web Q&A Tool** is a web-based application that allows users to ingest content from one or more URLs and ask questions based strictly on that ingested content. It leverages a retrieval-based approach using LangChain, Chroma, and a locally hosted Flan-T5 model to generate concise and accurate answers. The tool features a single-tab Gradio interface for a streamlined user experience.
 
 ## Features
 - **Content Ingestion:** Scrapes and cleans text from provided URLs.
