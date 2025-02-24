@@ -2,13 +2,6 @@
 
 This is a Streamlit web application that allows users to input URLs, scrape content from them, and ask questions about the scraped text.
 
-## Requirements
-
-- Python 3.7+
-- Streamlit
-- Requests
-- BeautifulSoup4
-
 ## Installation
 
 1. Clone this repository:
