@@ -1,0 +1,10 @@
+gradio
+requests
+beautifulsoup4
+langchain
+chromadb
+sentence-transformers
+transformers
+accelerate
+faiss-cpu
+torch
