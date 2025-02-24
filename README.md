@@ -1,4 +1,4 @@
-# Web Content Q&A Tool (UI-Focused)
+# Web Q&A Tool
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FCeRRx80NXlHZNVbYzfrseJm_zwVXe9U?usp=sharing)
 
