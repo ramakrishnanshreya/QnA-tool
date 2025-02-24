@@ -29,29 +29,38 @@ The **Web Content Q&A Tool** is a web-based application that allows users to ing
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/ramakrishnanshreya/QnA-tool.git
+   cd QnA-tool
+   ```
 
-2. **Install Dependencies** \n
-   Use the command pip install -r requirements.txt \n
-   Alternatively, install the packages manually: \n
+2. **Install Dependencies**  
+
+   Use the command:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   Alternatively, install the packages manually:  
    ```bash
    pip install gradio requests beautifulsoup4 langchain chromadb sentence-transformers transformers accelerate faiss-cpu torch
+   ```
 
 ## Usage
 1. **Run the Application:**
    ```bash
    python app.py
+   ```
+   This will launch a Gradio web interface in your browser.
 
-This will launch a Gradio web interface in your browser.
+2. **Ingest Content & Ask Questions:**
+   - Enter one or more comma-separated URLs to ingest their content.
+   - Type your question and click **Submit** to get an answer based strictly on the ingested content.
+   - Use the **Clear Data** button to reset ingested content.
 
-Ingest Content & Ask Questions:
-Enter one or more comma-separated URLs to ingest their content.
-Type your question and click Submit to get an answer based strictly on the ingested content.
-Use the Clear Data button to reset ingested content.
+## **Deployment**
+You can run this project locally or on platforms like Google Colab. Click the **Run in Colab** button above to open and run the notebook on Google Colab.
 
-## Deployment
-You can run this project locally or on platforms like Google Colab. Click the Run in Colab button above to open and run the notebook on Google Colab.
+## **Contact**
+For questions or inquiries, please contact **ramakrishnanshreya@gmail.com**.
 
-## Contact
-For questions or inquiries, please contact ramakrishnanshreya@gmail.com.
 
 
