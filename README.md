@@ -1,27 +1,52 @@
-# Web Content Q&A Tool
+# Web Content Q&A Tool (UI-Focused)
 
-This is a Streamlit web application that allows users to input URLs, scrape content from them, and ask questions about the scraped text.
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FCeRRx80NXlHZNVbYzfrseJm_zwVXe9U?usp=sharing)
 
-## Installation
+## Overview
+The **Web Content Q&A Tool** is a web-based application that allows users to ingest content from one or more URLs and ask questions based strictly on that ingested content. It leverages a retrieval-based approach using LangChain, Chroma, and a locally hosted Flan-T5 model to generate concise and accurate answers. The tool features a single-tab Gradio interface for a streamlined user experience.
 
-1. Clone this repository:
+## Features
+- **Content Ingestion:** Scrapes and cleans text from provided URLs.
+- **Retrieval-Based QA:** Splits text into manageable chunks, embeds them, and stores them in a local vector database for fast retrieval.
+- **Single-Tab Interface:** Combine URL ingestion and question answering in one simple interface.
+- **Data Reset:** Easily clear ingested data to start a new session.
+- **Run on Colab:** Launch the notebook on Google Colab with a single click.
+
+## Requirements
+- Python 3.7+
+- [Gradio](https://gradio.app/)
+- [Requests](https://docs.python-requests.org/)
+- [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [LangChain](https://github.com/hwchase17/langchain)
+- [ChromaDB](https://github.com/chroma-core/chroma)
+- [SentenceTransformers](https://www.sbert.net/)
+- [Transformers](https://huggingface.co/transformers/)
+- [Accelerate](https://github.com/huggingface/accelerate)
+- [faiss-cpu](https://github.com/facebookresearch/faiss)
+- [Torch](https://pytorch.org/)
+
+## Setup and Installation
+1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ramakrishnanshreya/QnA-tool.git
-   cd QnA-tool
-   ```
+   git clone <[your-repo-url](https://github.com/ramakrishnanshreya/QnA-tool)>
+   cd <QnA-tool>
 
-2. Install the required dependencies:
+2. **Install Dependencies**
+   Use the command pip install -r requirements.txt
+   Alternatively, install the packages manually:
    ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the Streamlit app:
-   ```bash
-   streamlit run app.py
-   ```
+   pip install gradio requests beautifulsoup4 langchain chromadb sentence-transformers transformers accelerate faiss-cpu torch
 
 ## Usage
+### Run the Application:
+```bash
+python app.py
 
-- Input one or more URL/URLs into the text box.
-- Ask a question about the scraped content, and get a response based on the data.
+## Deployment
+You can run this project locally or on platforms like Google Colab. Click the Run in Colab button above to open and run the notebook on Google Colab.
+
+## Contact
+For questions or inquiries, please contact ramakrishnanshreya@gmail.com.
+
+
 
