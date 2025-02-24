@@ -30,9 +30,9 @@ The **Web Content Q&A Tool** is a web-based application that allows users to ing
    ```bash
    git clone https://github.com/ramakrishnanshreya/QnA-tool.git
 
-2. **Install Dependencies**
-   Use the command pip install -r requirements.txt
-   Alternatively, install the packages manually:
+2. **Install Dependencies** \n
+   Use the command pip install -r requirements.txt \n
+   Alternatively, install the packages manually: \n
    ```bash
    pip install gradio requests beautifulsoup4 langchain chromadb sentence-transformers transformers accelerate faiss-cpu torch
 
