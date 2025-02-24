@@ -28,7 +28,7 @@ The **Web Content Q&A Tool** is a web-based application that allows users to ing
 ## Setup and Installation
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/ramakrishnanshreya/QnA-tool.git](https://github.com/ramakrishnanshreya/QnA-tool.git)
+   git clone https://github.com/ramakrishnanshreya/QnA-tool.git
 
 2. **Install Dependencies**
    Use the command pip install -r requirements.txt
